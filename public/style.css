@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: transparent;
+}
+
+.login {
+  padding: 15px;
+  width: 400px;
+  min-height: 400px;
+  margin: 2% auto 0 auto;
+}
+.login .heading {
+  text-align: center;
+  margin-top: 1%;
+}
+.login .heading h2 {
+  font-size: 3em;
+  font-weight: 300;
+/*  color: rgba(255, 255, 255, 0.7); */
+  display: inline-block;
+  padding-bottom: 5px;
+/*  text-shadow: 1px 1px 3px #23203b; */
+}
